@@ -20,7 +20,7 @@ function Detail() {
         {
             <>
             <div className='flex flex-col items-center bg-gray-500 p-10 border-2 border-black  sm:flex-row sm:justify-around'>
-                <div className='sm:w-2/5 border-2'>
+                <div className='sm:w-2/5'>
                 <img src={product.image} alt=""  style={{width:300, height:300}} className='rounded-2xl'/>
                 </div>
                 <div className='text-white flex flex-col gap-3 m-2 sm:w-1/2 '>
