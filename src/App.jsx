@@ -25,7 +25,7 @@ export default function App() {
     <DataContextProvider value={data} >
     <Routes>
       <Route path='/' element={<LayOut/>}>
-        <Route path='' element={<Home/>}/>
+      
         <Route path='Product' element={<Product />}/>
         <Route path='Cart' element={<Cart/>}/>
         <Route path='Contact' element={<Contact/>}/>
