@@ -18,7 +18,7 @@ function Cart() {
   // console.log(totalPrice)
   // console.log(totalQunatiy)
   return (
-    <div className=' w-full gap-4  flex flex-col bg-gray-900 border-2 sm:flex-row'>
+    <div className=' w-full gap-4  flex flex-col bg-gray-900  sm:flex-row'>
       <div className='flex flex-col gap-5 m-4 rounded-md '>
       {
         cart.map((item)=>(
